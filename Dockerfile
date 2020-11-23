@@ -20,9 +20,9 @@ RUN apt-get update \
 	&& export LANGUAGE=en_US.UTF-8 \
 	&& export LANG=en_US.UTF-8 \
 	&& export LC_ALL=en_US.UTF-8 \
-	&& wget -q https://download-installer.cdn.mozilla.net/pub/firefox/releases/76.0.1/linux-x86_64/en-US/firefox-76.0.1.tar.bz2\
-	&& tar xjf /usr/src/P3R/firefox-76.0.1.tar.bz2 \
-	&& rm firefox-76.0.1.tar.bz2  \
+	&& wget -q https://download-installer.cdn.mozilla.net/pub/firefox/releases/80.0.1/linux-x86_64/en-US/firefox-80.0.1.tar.bz2 \
+	&& tar xjf /usr/src/P3R/firefox-80.0.1.tar.bz2 \
+	&& rm firefox-80.0.1.tar.bz2  \
 	&& apt-get -y purge wget bzip2 \
 	&& apt-get -y autoremove
 	
